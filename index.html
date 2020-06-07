@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="FrontEnd Portfolio Website">
+  <meta name="keywords" content="HTML, CSS, JavaScript, FrontEnd Development, Portfolio">
+  <meta name="author" content="Zdravko Baryakov">
+  <title>Zdravko Baryakov - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="/images/tab-logo.ico" />
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div class="loading-screen">
+    <div class="lds-facebook">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <header id="main-header" data-aos="fade-down" data-aos-duration="500">
+    <div class="logo">
+      <a href="index.html"><img src="/images/logo.jpg" height="60px" alt="logo" /></a>
+    </div>
+    <div class="burger-menu"><i class="fas fa-bars fa-2x"></i></div>
+    <div class="main-nav-holder">
+      <nav>
+        <ul class="main-nav-ul">
+          <li>01. <a href="#about-section"> About</a></li>
+          <li>02. <a href="#project-section"> Projects</a></li>
+          <li>03. <a href="#contact-section"> Contact</a></li>
+          <li>
+            <a href="cv.html" target="_blank"><button class="button-style">Resume</button></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="mobile-nav-holder">
+    <ul class="main-nav-ul">
+      <li>01. <a href="#about-section"> About</a></li>
+      <li>02. <a href="#project-section"> Projects</a></li>
+      <li>03. <a href="#contact-section"> Contact</a></li>
+      <li>
+        <a href="https://github.com/barqkov/covid-data-app/blob/master/style.css" target="_blank"><button
+            class="button-style">Resume</button></a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="wrapper">
+    <div class="basic-div-styling" data-aos="fade-right" data-aos-duration="1500">
+      <div class="heading-div">
+        <h5>Hi, my name is</h5>
+        <h1>Zdravko Baryakov.</h1>
+        <h1 class="color-grey">I built things for the web.</h1>
+      </div>
+      <div class="paragraph-div">
+        <p class="color-grey">
+          I'm a software engineering student based in Sofia, BG.
+        </p>
+        <p class="color-grey">
+          Specializing in building pixel perfect web applications, and
+          everything in between.
+        </p>
+      </div>
+
+      <a href="#project-section"><button class="main-button-style"> Check Projects</button></a>
+    </div>
+
+    <section id="about-section">
+      <div class="basic-div-styling" data-aos="fade-in" data-aos-duration="1500">
+
+        <div class="heading-div">
+          <h3><span class="smaller-text">01. </span>About me</h3>
+        </div>
+
+        <div class="paragraph-div">
+          <p class="color-grey">
+            Hello! I am Zdravko, a software engineering student based in Sofia, BG.
+          </p>
+          <p class="color-grey top-spacing">
+            Creating things for the web is a big passion of mine. My goal is to always
+            build products that provide performant experience and just look perfect.
+          </p>
+
+          <p class="color-grey top-spacing">
+            Nearly before graduating university, I started working on small freelance projects, creating portfolio
+            websites and that is how I got caught into the world of web development.
+          </p>
+
+          <p class="color-grey top-spacing">
+            Here are some of the technologies I am currently working with and continue to develop:
+          </p>
+
+        </div>
+
+
+        <ul class="skill-list color-grey">
+          <li>HTML5</li>
+          <li>CCS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>WordPress</li>
+          <li>Git</li>
+          <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
+          <li>React(Currently learning)</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="project-section">
+      <div class="basic-div-styling" data-aos="fade-in" data-aos-duration="1500">
+
+        <div class="heading-div">
+          <h3><span class="smaller-text">02. </span>Projects</h3>
+        </div>
+
+        <div class="project-div-holder top-spacing">
+
+          <div class="project-holder">
+
+            <div class="project-holder-icons">
+              <div class="folder-icon-holder">
+                <i class="far fa-folder fa-4x"></i>
+
+              </div>
+              <div class="github-external-icon-holder">
+                <a href="#"><i class="fab fa-github fa-1x"> </i></a>
+                <a href="https://barqkov.github.io/covid-data-app/" target="_blank"><i
+                    class="fas fa-external-link-alt fa-1x"></i></a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h4>Corona Virus API Application</h4>
+
+              <p class="top-spacing">A simple web application that gets data from a free API and displays it.</p>
+            </div>
+
+            <div class="skills-used-holder color-grey">
+              <p class="skills-text">HTML5, CSS3, VanillaJS, AJAX</p>
+            </div>
+          </div>
+
+          <div class="project-holder">
+
+            <div class="project-holder-icons">
+              <div class="folder-icon-holder">
+                <i class="far fa-folder fa-4x"></i>
+
+              </div>
+              <div class="github-external-icon-holder">
+                <a href="#"><i class="fab fa-github fa-1x"> </i></a>
+                <a href="index.html"><i class="fas fa-external-link-alt fa-1x"></i></a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h4>Portfolio Website 1.0</h4>
+
+              <p class="top-spacing">Front-end portfolio project.</p>
+            </div>
+
+            <div class="skills-used-holder color-grey">
+              <p class="skills-text">HTML5, CSS3, VanillaJS, AOS.JS</p>
+            </div>
+          </div>
+
+          <div class="project-holder">
+
+            <div class="project-holder-icons">
+              <div class="folder-icon-holder">
+                <i class="far fa-folder fa-4x"></i>
+
+              </div>
+              <div class="github-external-icon-holder">
+                <a href="#"><i class="fab fa-github fa-1x"> </i></a>
+                <a href="#"><i class="fas fa-external-link-alt fa-1x"></i></a>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <h4>First JS Application (Old)</h4>
+
+              <p class="top-spacing">My first project on VanillaJS - Sticky Note Apps.</p>
+            </div>
+
+            <div class="skills-used-holder color-grey">
+              <p class="skills-text">HTML5, CSS3, VanillaJS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <div class="basic-div-styling" data-aos="fade-in" data-aos-duration="1500">
+
+        <div class="heading-div">
+          <h3><span class="smaller-text">03. </span>Contact Me</h3>
+        </div>
+
+        <form id="contact-form" action="mailto:zdravkobns@gmail.com" method="post" enctype="text/plain">
+          <input id="name-input" type="text" placeholder="Enter your name" required>
+          <input id="email-input" type="text" placeholder="Enter your email" required>
+          <textarea placeholder="Enter your message" required></textarea>
+          <input type="submit" class="main-button-style" value="Send">
+        </form>
+
+      </div>
+    </section>
+
+
+
+    <div class="social-links" data-aos="fade-left" data-aos-duration="1500">
+      <ul class="social-links-list">
+        <li><a href="https://github.com/barqkov" target="_blank"><i class="fab fa-github fa-lg"></i></a></li>
+        <li><a href="https://www.instagram.com/designmezack/" target="_blank"><i class="fab fa-instagram fa-lg"></i>
+            </a</li> <li><a href="https://www.facebook.com/zdravko.barqkov" target="_blank"><i
+                class="fab fa-facebook fa-lg"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="scroll-up-button" data-aos="fade-in" data-aos-duration="500">
+    <a href="#main-header"><i class="fas fa-angle-up fa-2x"></i></a>
+  </div>
+
+  <footer>Designed & Built by Zdravko Baryakov</footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/b9f8e7a06c.js" crossorigin="anonymous"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
